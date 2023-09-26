@@ -1,0 +1,34 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100wh;
+    background-color: aquamarine;
+}
+body{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+
+}
+#center{
+    
+    margin-top: 200px;
+    margin-left: 500px;
+    color: white;
+}
+button{
+   margin-top: 20px;
+   margin-left: 600px;
+    align-items: center;
+}
+p{
+    margin-left: 250px;
+    color: white;
+}
+button:hover{
+    color: red;
+}
